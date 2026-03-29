@@ -1,0 +1,53 @@
+name: secyrity
+description: تطبيق تقييم أمان Android - Android Security Assessment App
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # UI & Design
+  cupertino_icons: ^1.0.6
+  flutter_localizations:
+    sdk: flutter
+  
+  # Database
+  sqflite: ^2.3.0
+  path: ^1.8.3
+  
+  # Permissions & Device Info
+  permission_handler: ^11.1.0
+  device_info_plus: ^9.1.1
+  package_info_plus: ^5.0.1
+  
+  # Network & Connectivity
+  connectivity_plus: ^5.0.2
+  
+  # Notifications
+  flutter_local_notifications: ^16.3.0
+  
+  # State Management
+  provider: ^6.1.1
+  
+  # Utilities
+  intl: ^0.19.0
+  shared_preferences: ^2.2.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+  flutter_launcher_icons: "^0.13.1"
+flutter_icons:
+  android: true
+  ios: false  # أو true إذا تحتاج لأيقونة iOS
+  image_path: "assets/icon.png"  # ضع أي صورة هنا
+  adaptive_icon_background: "#6200EE"
+  adaptive_icon_foreground: "assets/icon.png"
+flutter:
+  uses-material-design: true
+
